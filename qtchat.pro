@@ -13,10 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    tcpserver.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    tcpserver.h
 
-FORMS    += widget.ui
+FORMS    += widget.ui \
+    tcpserver.ui
 
 
